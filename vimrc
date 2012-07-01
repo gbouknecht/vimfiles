@@ -3,6 +3,9 @@ set nocompatible
 set expandtab
 set smartindent
 
+set softtabstop=2
+set shiftwidth=2
+
 set ignorecase
 
 set visualbell
