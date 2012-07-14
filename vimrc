@@ -17,3 +17,5 @@ set scrolloff=2
 
 syntax on
 filetype indent plugin on
+
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
