@@ -18,4 +18,5 @@ set scrolloff=2
 syntax on
 filetype indent plugin on
 
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
